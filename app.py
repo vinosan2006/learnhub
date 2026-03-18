@@ -6,4 +6,5 @@ app = AppSingleton.get_instance(create_app)
 
 if __name__ == "__main__":
     app.run(debug=True)
-    
+
+print("Updated file")
